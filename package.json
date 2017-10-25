@@ -1,0 +1,19 @@
+{
+  "name": "eth-contract-address",
+  "version": "0.0.1",
+  "description": "Compute the address of a contract created given the address of the creator and the nonce.",
+  "main": "index.js",
+  "dependencies": {
+    "ethereumjs-util": "^5.1.2",
+    "rlp": "^2.0.0"
+  },
+  "bin": {
+    "eth-contract-address": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franco Victorio (victorio.franco@gmail.com)",
+  "license": "ISC"
+}
